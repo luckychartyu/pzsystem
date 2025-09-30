@@ -74,6 +74,23 @@ src/
 └── assets/ # 静态资源
 
 pzH5
+src/
+├── components/ # 公共组件
+│ ├── counter/ # 计数组件
+│ └── statusBar/ # 侧边组件
+├── pages/ # 页面组件
+│ ├── createOrder/ # 创建菜单
+│ ├── detail/ # 菜单细节
+│ ├── home/ # 主页面
+│ ├── login/ # 登录管理
+│ ├── order/ # 菜单管理
+│ └── user/ # 用户看板
+├── router/ # 路由配置
+│ └── index.js # 路由守卫
+├── store/ # 状态管理
+├── api/ # 接口管理
+├── utils/ # 工具函数
+└── assets/ # 静态资源
 
 text
 
